@@ -56,7 +56,7 @@ def _onUnMuteRequest(client, cb):
                 except UserNotParticipant:
                     client.answer_callback_query(
                         cb.id,
-                        text=f"❗ Join our @{channel} channel and press 'UnMute Me' button.",
+                        text=f"❗ Join our @{channel} channel and press '👉UnMute Me' button👨.",
                         show_alert=True,
                     )
             else:
@@ -138,7 +138,7 @@ def _check_member(client, message):
 @pbot.on_message(filters.command(["forcesubscribe", "forcesub"]) & ~filters.private)
 def config(client, message):
     user = client.get_chat_member(message.chat.id, message.from_user.id)
-    if user.status is "creator" or user.user.id == 1141839926:
+    if user.status is "creator" or user.user.id == 1086432320:
         chat_id = message.chat.id
         if len(message.command) > 1:
             input_str = message.command[1]
