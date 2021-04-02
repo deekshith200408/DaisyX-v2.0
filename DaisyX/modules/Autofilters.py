@@ -9,7 +9,7 @@ Currently support:
      - Music
 
 <b> Setting up </b>
-1) Add @DaisyXBot to your channel
+1) Add @UMR_ALLINONE_ROBOT to your channel
 2) Make bot admin with full permissions
 2) Go back to your group
 
@@ -20,6 +20,5 @@ Currently support:
 - /autofilterstats : Show stats about auto filtering channels
 
 <b> Specially made for Movie/Music and Book group owners </b>
-<i> Inspired by Autofilters bot v2 </i>
 
 """
