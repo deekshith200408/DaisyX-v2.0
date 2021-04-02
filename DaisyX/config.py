@@ -28,7 +28,7 @@ DEFAULTS = {
     "REDIS_PORT": 6379,
     "REDIS_DB_FSM": 1,
     "MONGODB_URI": "localhost",
-    "MONGO_DB": "DaisyX",
+    "MONGO_DB": "Deekshith",
     "API_PORT": 8080,
     "JOIN_CONFIRM_DURATION": "30m",
 }
